@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 1000px;
+    margin: 0px auto;
+ 
+}
+#body.w1{
+    background: #000000;
+}
+#Menu {
+    background: white;
+    height: 40px;
+}
+#Banner {
+    height: auto;
+    width: 1000px;
+}
+#Main #Left {
+    background: white;
+    width: 800px;
+    float: left;
+    min-height: 400px;
+}
+#Main #Right {
+    background:white;
+    width: 200px;
+    float: left;
+    min-height: 400px;
+}
+#Footer {
+    background: white;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    clear: left;
+    line-height: 60px;
+    border-top: 1px solid black;  
+
+}
+#Menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#Menu ul li{
+    list-style: none;
+    float: left;
+
+}
+#Menu ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #000000;;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid black;  
+    border-right: 1px solid black;  
+}
+
+#Banner img{
+    width: 1000px;
+}
+#Main #Left ul {
+   
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#Main #Left ul li img{
+    height: auto;
+    width: 800px;
+    float: left;
+    margin-bottom: 10px;
+}
+#Main #Left ul li h2 {
+    font-size: 18px;
+    margin-top: 0px;
+}
+#Main #Right ul {
+    font-size: 18px;
+    list-style: none;
+    float: left;
+}
+#Main #Right .menuright ul li ol{
+margin: 0px;
+float: left;
+}
+
+#Footer ul {
+    list-style: none;
+    float: left;
+}
+#Footer ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+#Report {
+    background-color: tomato;
+    font-size: 18px;
+
+}
+#Menu #Right .menuright form {
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+}
+#btbChangeImage{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+#hinh {
+    width: 800px;
+}
+#theme {
+    float: right;
+    cursor: pointer;
+}
+#Main #Right .menuright form get {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #cccccc;
+}

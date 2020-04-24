@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout</title>
+        <meta charset="utf-8"/>
+        
+        <link rel="stylesheet" type="text/css" href="css/2.css"/>
+        <script type="text/javascript" src="jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="java.js"></script>
+        
+            
+    </head>
+    <script>
+        alert("Wellcome to namnguyen.ga");
+   </script>
+   <script>
+ 
+</script>
+    <body class="w1">
+        
+
+        <div id="Menu">
+            <ul>
+                <li><a href="#"title="Trang chủ" >Trang chủ</a></li>
+                <li><a href="#"title="Giới thiệu">Giới thiệu</a></li>
+                <li><a href="#"title="Tin tức">Tin tức</a></li>
+                <li><a href="#"title="Khuyến mãi">Khuyến mãi</a></li>
+                <li><a href="#"title="Dịch vụ">Dịch vụ</a> </li>
+                <li><a href="#"title="Liên hệ">Liên hệ</a></li>
+                
+            </ul>
+        </div>
+        <button id="theme" onclick="theme()">theme</button>
+        
+        <div id="btbChangeImage">xem lịch</div>
+        <img id="hinh" src="">
+        <div id="Banner">
+           
+            <img id="imgg"src="img/nhung-hinh-anh-bai-bien-dep-nhat-the-gioi-6-1.jpg">
+            
+        </div>
+        <div id="Main">
+            <div id="Left">
+                <ul>
+                    <li><img src="img/1.jpg">
+                        <h2>Khu du lịch Nha Trang</h2>
+                        Được mệnh danh là thiên đường miền nhiệt đới, sở hữu bãi biển tuyệt đẹp ngay trong thành phố, lại có Vịnh Nha Trang nổi tiếng nên du lịch Nha Trang chủ yếu là hoạt động vui chơi, giải trí gắn liền với biển đảo. Những bãi biển xinh đẹp luôn tràn ngập ánh nắng và nước biển trong xanh luôn là nơi thu hút nhất ở Nha Trang.
+
+                        Nhưng Nha Trang không chỉ có biển mà còn có những công trình văn hóa, di tích lịch sử đa dạng, gắn liền với lịch sử hình thành và phát triển của mảnh đất xinh đẹp này.
+                        
+                        Dưới đây là những điểm tham quan, vui chơi, giải trí hấp dẫn nhất Nha Trang...<button name="button" value="OK" type="button" onclick="hello()">xem thêm</button>  
+                        <script>  
+                          function hello(){  
+                            alert("Chức năng đang được cập nhật");  
+                          }  
+                        </script>
+                    </li>
+                    <li><img src="img/2.jpg">
+                    <h2>Đảo Phú Quốc</h2>
+                    Hòn đảo đặc trưng rừng nhiệt đới hoang sơ, rạn san hô bị hư hại và bãi biển tuyệt vời. Một trong những bãi biển của nó, tên Bãi Dài (Bãi biển dài), được lựa chọn bởi ABC News là một trong năm bãi biển đẹp và sạch sẽ. Phú Quốc nổi tiếng với sản xuất nước mắm tốt nhất hoặc lên men nước mắm trên thế giới...<button name="button" value="OK" type="button" onclick="hello()">xem thêm</button>  
+                    <script>  
+                      function hello(){  
+                        alert("Chức năng đang được cập nhật");  
+                      }  
+                    </script>
+                    </li>
+                    <li><img src="img/3.jpg">
+                    <h2>Thừa Thiên Huế</h2>
+                    Thừa Thiên - Huế là một tỉnh ven biển nằm ở vùng Bắc Trung Bộ, Việt Nam. Năm 2018, Thừa Thiên - Huế là đơn vị hành chính Việt Nam đông thứ 36 về số dân, xếp thứ 39 về Tổng sản phẩm trên địa bàn, xếp thứ 42 về GRDP bình quân đầu người, đứng thứ 52 về tốc độ tăng trưởng GRDP...<button name="button" value="OK" type="button" onclick="hello()">xem thêm</button>  
+                    <script>  
+                      function hello(){  
+                        alert("Chức năng đang được cập nhật");  
+                      }  
+                    </script>
+                    </li>
+                </ul>
+            </div>
+            <div id="Right">
+                <div class="menuright">
+                    <h3>Top khu du lịch</h3>
+                    <ul>
+                        <li>
+                            <ol>
+                                <li>Nha Trang</li>
+                                <li>Đà Nẵng</li>
+                                <li>Sa Pa</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <form action="" method="post">
+                        <label> FullName </label>
+                        <input type="text" name="FullName" id="FullName" placeholder="Vui lòng nhập tên của bạn" value=""/>
+                        <span id="errorname"></span>
+                        <br/>
+                        <label> Email </label>
+                        <input type="text" name="Email" id="Email" placeholder="Nhập địa chỉ email" value=""/><br/>
+                        <label> Address </label>
+                        <input type="text" name="Address" id="Address" placeholder="Địa chỉ hiện tại của bạn" value=""/><br/>
+                        <label> Phone </label>
+                        <input type="text" name="Phone" id="Phone" placeholder="Số điện thoại của bạn" value=""/><br/>
+                        <button id="gett" onclick="get()"; return false;>Register Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="Footer">
+            <ul>
+                <li><a href="#"title="Trợ giúp">Trợ giúp</a></li>
+                <li><a href="#"title="Report">
+                   
+                    <button id='Report' type="button" onclick="send()">Report</button>
+                    <input type="text" name="report" id="report" value=""/>
+                </a></li>
+            </ul>
+        </div>
+    </body>
+
+</html>
